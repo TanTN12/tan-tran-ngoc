@@ -1,0 +1,29 @@
+:root {
+    --pinkmomo: #a50064;
+    --pink: #d82f8b;
+    --pinklight: #f9b5c3;
+    --black:#000;
+    --white:#fff;
+    --text-color:rgb(103, 103, 103);
+    --pinkpatel:rgb(255, 236, 247);
+    --hover-color:rgb(245, 245, 245);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    color: var(--pink);
+    font-size: 1.6rem;
+    padding: 5px 15px;
+    border: 1px solid var(--pink);
+    background-color: unset;
+    border-radius: 15px;
+    margin: 23px auto 57px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--pinkpatel);
+}
+.btn i {
+    padding-right: 5px;
+}
